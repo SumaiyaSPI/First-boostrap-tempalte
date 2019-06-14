@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bootstrap</title>
+<!--bootstrap-->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+<!--font awesome-->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+<!--animate-->
+	<link rel="stylesheet" href="css/animate.css">
+<!--custom-->
+	<link rel="stylesheet" href="style.css">
+</head>
+	<body>
+		<nav class="navbar-inverse navbar">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="" class="navbar-brand">
+						Techtwich
+					</a>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="" class="active">Home</a></li>
+						<li><a href="#services">Services</a></li>
+						<li><a href="">About</a></li>
+						<li><a href="">Blog</a></li>
+						<li><a href="#contact">Contact us</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!--end of navbar-->
+
+		<div class="carousel slide" id="myCarousel" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li class="active" data-target="#myCarousel" data-slide-to="0"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol>
+			<div class="carousel-inner" role="listbox">
+				<div class="item active">
+					<div class="carousel-caption jumbotron text-center">
+						<h1>Mountains</h1>
+						<button type="button" class="btn btn-default">
+							Lets start
+						</button>
+					</div>
+					<img src="images/mountains.png" alt="">
+				</div>
+				<div class="item">
+					<div class="carousel-caption jumbotron text-center">
+						<h1>Snow over the mountain</h1>
+						<button type="button" class="btn btn-default">
+							Lets start
+						</button>
+					</div>
+					<img src="images/snow.png" alt="">
+				</div>
+				<div class="item">
+					<div class="carousel-caption jumbotron text-center">
+						<h1>Red Mountain</h1>
+						<button type="button" class="btn btn-default">
+							Lets start
+						</button>
+					</div>
+					<img src="images/red.png" alt="" ">
+				</div>
+			</div>
+			<a href="#myCarousel" class="left carousel-control" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>		
+			<a href="#myCarousel" class="right carousel-control" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden=""></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>					
+		<!--end of carousel-->
+
+		<div class="jumbotron text-center alternative">
+	  		<h1>Discover</h1>
+	  		<p class="wow">A mint of creativity</p>
+			<button type="button" class="btn btn-default">
+				Lets start
+			</button>
+		</div>
+
+		<div class="container text-center" id="services">
+			<h1 class="title-text">Our Services</h1>
+			<div class="row">
+				<div class="col-md-4">
+					<img class="wow fadeInLeftBig" data-wow-duration=".5s" src="images/html5.png" id="icon" alt="">
+					<h4>HTML5</h4>
+				</div>
+				<div class="col-md-4">
+					<img class="wow fadeInDownBig" data-wow-duration=".5s" src="images/bootstrap.png" id="icon" alt="">
+					<h4>BOOSTRAP</h4>
+				</div>
+				<div class="col-md-4">
+					<img class="wow fadeInRightBig" data-wow-duration=".5s" src="images/css3.png" id="icon" alt="">
+					<h4>CSS3</h4>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="col-md-6">
+				<h4>Here's the cool things about our services...</h4>
+				<p class="wow">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Maxime earum, quia officia voluptas totam laudantium modi officiis aliquam explicabo, est excepturi doloribus. Officia error repellat omnis vitae, quas totam, quasi Maxime earum, quia officia voluptas totam laudantium modi officiis aliquam explicabo, est excepturi doloribus. Officia error repellat omnis vitae, quas totam, quasi.Maxime earum, quia officia voluptas totam laudantium modi officiis aliquam explicabo, est excepturi doloribus. Officia error repellat omnis vitae, quas totam, quasi.</p>		
+
+				<p class="wow">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Maxime earum, quia officia voluptas totam laudantium modi officiis aliquam explicabo, est excepturi doloribus. Officia error repellat omnis vitae, quas totam, quasi Maxime earum, quia officia voluptas totam laudantium modi officiis aliquam explicabo, est excepturi doloribus. Officia error repellat omnis vitae, quas totam, quasi.Maxime earum, quia officia voluptas totam laudantium modi officiis aliquam explicabo, est excepturi doloribus. Officia error repellat omnis vitae, quas totam, quasi</p>
+			</div>
+			<div class="col-md-6">
+				<img src="images/bootstrap2.jpg" class="img-responsive wow zoomIn" alt="">
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="col-md-3 col-lg-3 col-sm-6 col-xs-12">
+				<h4>Built with Sass</h4>
+				<p class="wow">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Maxime earum, quia officia voluptas totam laudantium modi officiis aliquam explicabo, est excepturi doloribus. Officia error repellat omnis vitae, quas totam, quasi Maxime earum, quia officia voluptas totam laudantium modi officiis aliquam </p>	
+			</div>
+			<div class="col-md-3 col-lg-3 col-sm-6 col-xs-12">
+				<img src="images/sass.png" class="img-responsive wow jackInTheBox" alt="">
+			</div>	
+			<div class="col-md-3 col-lg-3 col-sm-6 col-xs-12">
+				<h4>And less</h4>
+				<p class="wow">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Maxime earum, quia officia voluptas totam laudantium modi officiis aliquam explicabo, est excepturi doloribus. Officia error repellat omnis vitae, quas totam, quasi Maxime earum, quia officia voluptas totam laudantium modi officiis aliquam .</p>	
+			</div>
+			<div class="col-md-3 col-lg-3 col-sm-6 col-xs-12">
+				<img src="images/less.png" class="img-responsive wow jackInTheBox" alt="">
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row custom-row">
+				<h4><a href="#hidden" data-toggle="collapse">Care to learn more about our services?</a></h4>
+				<div id="hidden" class="collapse">
+					<h4>Here's the cool things about us...</h4>
+					<p class="wow">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Maxime earum, quia officia voluptas totam laudantium modi officiis aliquam explicabo, est excepturi doloribus. Officia error repellat omnis vitae, quas totam, quasi Maxime earum, quia officia voluptas totam laudantium modi officiis aliquam .Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur et odio minima est aperiam, libero. Ab recusandae a sit deleniti laudantium tempora, ullam magnam ut vel expedita nam, voluptatum nihil.</p>				
+					<p class="wow">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Maxime earum, quia officia voluptas totam laudantium modi officiis aliquam explicabo, est excepturi doloribus. Officia error repellat omnis vitae, quas totam, quasi Maxime earum, quia officia voluptas totam laudantium modi officiis aliquam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam corporis, illo, illum, eveniet ad recusandae adipisci vero vel, animi commodi hic assumenda quidem molestias id porro accusamus. Dolorem, incidunt, ducimus.</p>				
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row contact">
+	  			<h1 class="text-center title-text" id="contact">Contact Us</h1>
+
+				<div class="col-md-6 col-sm-12 col-xs-12" id="noneed">
+					<p class="wow">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+					Vel nam magnam natus tempora cumque, aliquam deleniti voluptatibus voluptas. 
+					Repellat vel, et itaque commodi iste ab, laudantium voluptas deserunt nobis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos praesentium, at distinctio, pariatur laudantium beatae et molestias velit sint ex delectus rerum hic porro optio consectetur similique tempore. Eligendi, dolorem.
+					</p>			
+					<p class="wow">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+					Vel nam magnam natus tempora cumque, aliquam deleniti voluptatibus voluptas. 
+					Repellat vel, et itaque commodi iste ab, laudantium voluptas deserunt nobis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos praesentium, at distinctio, pariatur laudantium beatae et molestias velit sint ex delectus rerum hic porro optio consectetur similique tempore. Eligendi, dolorem.
+					</p><br>
+					<ul class="contact_ul">
+						<li><i class="fa fa-map-marker pr-10"></i> One infinity loop, 54100</li>
+						<li><i class="fa fa-phone pr-10"></i> +00 1234567890</li>
+						<li><i class="fa fa-phone pr-10"></i> +00 1234567891</li>
+						<li><i class="fa fa-envelope-o pr-10"></i> your@email.com</li>
+					</ul>
+				</div>
+				<div class="col-md-6 col-sm-12 col-xs-12">
+					<form>
+						<input type="text" placeholder="Name"><br><br>
+						<input type="email" placeholder="Enter email"><br><br>
+						<textarea name="" id="" cols="70" rows="15" placeholder="Message"></textarea><br><br>
+						<input class="submit" type="submit" value="SEND">
+					</form>
+				</div>
+			</div>
+		</div>
+	<!--contactus-->
+		<footer class="container-fluid text-center">
+			<div class="row">
+				<h3>Connect</h3>
+				<a href="#" class="fa fa-facebook"></a>
+				<a href="#" class="fa fa-twitter"></a>
+				<a href="#" class="fa fa-google"></a>
+				<a href="#" class="fa fa-linkedin"></a>
+				<a href="#" class="fa fa-youtube"></a>
+
+			</div>
+		</footer>
+
+	<!--script call action-->
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/wow.min.js"></script>
+		<script src="js/custom.js"></script>
+	</body>
+</html>
+
